@@ -74,9 +74,9 @@ function Offcanvas() {
         </div>
     </div>
 
-        <div className="mt-3">
-            <button type="button" class="btn btn-danger mx-2"><i class="fa-solid fa-clipboard-question"></i> Guide</button>
-            <button type="button" class="btn btn-warning mx-2"><i class="fa-solid fa-circle-question"></i> Assistance</button>
+        <div className="mt-5 d-flex justify-content-center">
+            <button type="button" class="btn btn-danger mx-2 w-50"><i class="fa-solid fa-clipboard-question"></i> Guide</button>
+            <button type="button" class="btn btn-warning mx-2 w-50"><i class="fa-solid fa-circle-question"></i> Assistance</button>
         </div>
         
     </div>
