@@ -2,6 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function Offcanvas() {
+
+    // const offCanvasToggle = ()=>{
+    //     document.querySelector('#offcanvasScrolling').classList.toggle('show')
+    //   }
+
   return (
     <div>
 
@@ -23,11 +28,11 @@ function Offcanvas() {
         </h2>
         <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
             <div class="accordion-body">
-                <ul class="list-group">
+                <ul class="list-group"  data-bs-dismiss="offcanvas">
                     <Link className='nav-link p-0 mt-2' to="/EnergieRenouvelable">
                         <li class="list-group-item"><i class="fa-solid fa-car-battery"></i> Energie Renouvelable</li>
                     </Link>
-                    <Link className='nav-link p-0 mt-2' to="/EnergieNonRenouvelable">
+                    <Link className='nav-link p-0 mt-2' to="/EnergieNonRenouvelable" data-bs-dismiss="offcanvas">
                         <li class="list-group-item"><i class="fa-solid fa-battery-three-quarters"></i> Energie Non Renouvelable</li>
                     </Link>
                 </ul>
