@@ -4,6 +4,7 @@ import Logo from '../media/logo.png'
 import Intellcap from '../media/intellcap.png'
 import maFlag from '../media/ma_flag.png'
 import frFlag from '../media/fr_flag.png'
+import { Link } from 'react-router-dom'
 
 function RespNav() {
   return (
@@ -16,7 +17,7 @@ function RespNav() {
           </a>
           <button class="btn btn-light me-auto fs-5 fa-beat" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-solid fa-angles-right"></i> </button>
           <a className="navbar-brand img-fluid p-0 d-lg-none" href="#">
-            <img src={Logo} alt="" width="200" class="d-inline-block p-0" />
+            <img src={Logo} alt="" width="150" class="d-inline-block p-0" />
           </a>
         <button className="navbar-toggler text-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon fs-3"></span>
@@ -25,19 +26,19 @@ function RespNav() {
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
             
             <li className="nav-item">
-                <a className="nav-link text-body fs-5" href="#">
+                <Link to="/" className="nav-link text-body fs-5" href="#">
                   <i class="fa-solid fa-home"></i> Accueil 
-                </a>
+                </Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link text-body fs-5" href="#">
+                <Link to="aboutUs" className="nav-link text-body fs-5" href="#">
                   <i class="fa-solid fa-circle-info"></i> Qui sommes-nous 
-                </a>
+                </Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link text-body fs-5" href="#">
+                <Link to="contactUs" className="nav-link text-body fs-5" href="#">
                   <i class="fa-solid fa-envelope"></i> Contactez nous
-                </a>
+                </Link>
             </li>
           </ul>
           

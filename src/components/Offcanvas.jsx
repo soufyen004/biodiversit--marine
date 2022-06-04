@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Offcanvas() {
   return (
@@ -23,8 +24,12 @@ function Offcanvas() {
         <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
             <div class="accordion-body">
                 <ul class="list-group">
-                    <li class="list-group-item"><i class="fa-solid fa-car-battery"></i> Energie Renouvelable</li>
-                    <li class="list-group-item"><i class="fa-solid fa-battery-three-quarters"></i> Energie Non Renouvelable</li>
+                    <Link className='nav-link p-0 mt-2' to="/EnergieRenouvelable">
+                        <li class="list-group-item"><i class="fa-solid fa-car-battery"></i> Energie Renouvelable</li>
+                    </Link>
+                    <Link className='nav-link p-0 mt-2' to="/EnergieNonRenouvelable">
+                        <li class="list-group-item"><i class="fa-solid fa-battery-three-quarters"></i> Energie Non Renouvelable</li>
+                    </Link>
                 </ul>
             </div>
         </div>
