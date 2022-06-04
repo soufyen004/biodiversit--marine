@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom'
 
 function Offcanvas() {
 
-    // const offCanvasToggle = ()=>{
-    //     document.querySelector('#offcanvasScrolling').classList.toggle('show')
-    //   }
+    const offCanvasToggle = ()=>{
+        document.querySelector('#offcanvasScrolling').classList.toggle('show')
+      }
 
   return (
     <div>
 
-        <div style={{width:'320px'}} class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div style={{width:'320px'}} class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
         <div class="offcanvas-header">
             <span class="badge text-bg-primary fs-6">Eco-Platforme V1.5</span>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -28,11 +28,11 @@ function Offcanvas() {
         </h2>
         <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
             <div class="accordion-body">
-                <ul class="list-group"  data-bs-dismiss="offcanvas">
-                    <Link className='nav-link p-0 mt-2' to="/EnergieRenouvelable">
+                <ul class="list-group">
+                    <Link className='nav-link p-0 mt-2' to="/EnergieRenouvelable" onClick={offCanvasToggle}>
                         <li class="list-group-item"><i class="fa-solid fa-car-battery"></i> Energie Renouvelable</li>
                     </Link>
-                    <Link className='nav-link p-0 mt-2' to="/EnergieNonRenouvelable" data-bs-dismiss="offcanvas">
+                    <Link onClick={offCanvasToggle} className='nav-link p-0 mt-2' to="/EnergieNonRenouvelable">
                         <li class="list-group-item"><i class="fa-solid fa-battery-three-quarters"></i> Energie Non Renouvelable</li>
                     </Link>
                 </ul>
