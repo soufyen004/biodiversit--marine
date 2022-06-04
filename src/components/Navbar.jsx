@@ -13,7 +13,7 @@ function RespNav() {
     <nav className="navbar navbar-expand-lg bg-light shadow">
       <div className="container-fluid">
           <a className="navbar-brand img-fluid" href="#">
-            <img src={Intellcap} alt="Logo" width="55" class="d-inline-block p-0" />
+            <img src={Intellcap} alt="Logo" width="45" class="d-inline-block p-0" />
           </a>
           <button class="btn btn-light me-auto fs-5 fa-beat" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-solid fa-angles-right"></i> </button>
           <a className="navbar-brand img-fluid p-0 d-lg-none" href="#">
