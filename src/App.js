@@ -1,10 +1,10 @@
-import RespNav from "./components/Navbar";
+import Main from "./pages/Main";
 
 
 function App() {
   return (
     <div className="App">
-      <RespNav/>
+      <Main/>
     </div>
   );
 }
