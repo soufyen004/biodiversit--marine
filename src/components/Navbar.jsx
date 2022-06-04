@@ -9,7 +9,7 @@ function RespNav() {
   return (
     
     <>
-    <nav className="navbar navbar-expand-lg bg-light">
+    <nav className="navbar navbar-expand-lg bg-light shadow">
       <div className="container-fluid">
           <a className="navbar-brand img-fluid" href="#">
             <img src={Intellcap} alt="Logo" width="55" class="d-inline-block p-0" />

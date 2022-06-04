@@ -6,7 +6,7 @@ function Offcanvas() {
 
         <div style={{width:'320px'}} class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
         <div class="offcanvas-header">
-            <span class="badge text-bg-primary fs-5">Eco-Platforme V1.5</span>
+            <span class="badge text-bg-primary fs-6">Eco-Platforme V1.5</span>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
