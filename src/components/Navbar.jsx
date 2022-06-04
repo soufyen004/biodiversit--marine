@@ -2,6 +2,8 @@ import React from 'react'
 import { Navbar ,NavDropdown,Container,Nav} from 'react-bootstrap'
 import Logo from '../media/logo.png'
 import Intellcap from '../media/intellcap.png'
+import maFlag from '../media/ma_flag.png'
+import frFlag from '../media/fr_flag.png'
 
 function RespNav() {
   return (
@@ -22,20 +24,31 @@ function RespNav() {
             
             <li className="nav-item">
                 <a className="nav-link text-body fs-5" href="#">
-                  <i class="fa-solid fa-home"></i> Home 
+                  <i class="fa-solid fa-home"></i> Accueil 
                 </a>
             </li>
             <li className="nav-item">
                 <a className="nav-link text-body fs-5" href="#">
-                  <i class="fa-solid fa-circle-info"></i> About 
+                  <i class="fa-solid fa-circle-info"></i> Qui sommes-nous 
                 </a>
             </li>
             <li className="nav-item">
                 <a className="nav-link text-body fs-5" href="#">
-                  <i class="fa-solid fa-envelope"></i> Contact 
+                  <i class="fa-solid fa-envelope"></i> Contactez nous
                 </a>
             </li>
           </ul>
+          
+          <div class="dropdown mx-2">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+              Langue
+            </button>
+            <ul class="dropdown-menu">
+              <li><button class="dropdown-item" type="button"><img width={'20px'} src={maFlag}/> AR</button></li>
+              <li><button class="dropdown-item" type="button"><img width={'20px'} src={frFlag}/> FR</button></li>
+            </ul>
+          </div>
+
 
           <div>
           <a className="navbar-brand img-fluid p-0" href="#">
