@@ -14,15 +14,15 @@ function RespNav() {
     <>
     <nav className="navbar navbar-expand-lg bg-light shadow">
       <div className="container-fluid">
+      <button class="btn btn-light me-auto fs-6" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-solid fa-bars"></i> </button>
           <Link to="/" className="navbar-brand img-fluid">
-            <img src={Intellcap} alt="Logo" width="35" class="d-inline-block p-0" />
+            <img src={Intellcap} alt="Logo" width="200" class="d-inline-block p-0" />
           </Link>
-          <button class="btn btn-light me-auto fs-6" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-solid fa-bars"></i> </button>
           <a className="navbar-brand img-fluid p-0 d-lg-none" href="#">
             <img src={Logo} alt="" width="150" class="d-inline-block p-0" />
           </a>
           <div class="dropdown dropdown-menu-end d-flex mx-2 ms-auto">
-            <button class="btn btn-transparent btn-sm dropdown-toggle ms-auto" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+            <button class="btn btn-transparent dropdown-toggle ms-auto" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
               <i className='fa-solid fa-language'></i>
             </button>
             <ul class="dropdown-menu dropdown-menu-end">
