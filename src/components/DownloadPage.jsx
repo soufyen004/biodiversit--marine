@@ -26,7 +26,7 @@ function DownloadPage(props) {
                     <div class="card shadow">
                         <img src={props.imgLink} class="card-img-top" alt="Image link Broken" />
                     <div class="card-body">
-                        <h5 class="card-title"><i class="fa-solid fa-mobile-screen me-1"></i>Version Mobile</h5>
+                        <h5 class="card-title"><i class="fa-solid fa-mobile-screen me-1"></i>Version Mobile/Tablet</h5>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                         <Link to={props.MobileLink} className="btn btn-primary">
                             <i class="fa-solid fa-download me-1"></i>Telecharger
@@ -34,18 +34,7 @@ function DownloadPage(props) {
                     </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xl-3 m-auto my-2">
-                    <div class="card shadow">
-                        <img src={props.imgLink} class="card-img-top" alt="Image link Broken" />
-                    <div class="card-body">
-                        <h5 class="card-title"><i class="fa-solid fa-tablet-screen-button me-1"></i>Version Tablet</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <Link to={props.TabletLink} className="btn btn-primary">
-                            <i class="fa-solid fa-download me-1"></i>Telecharger
-                        </Link>
-                    </div>
-                    </div>
-                </div>
+                
                 <div class="col-md-6 col-lg-4 col-xl-3 m-auto my-2">
                     <div class="card shadow">
                         <img src={props.imgLink} class="card-img-top" alt="Image link Broken" />
