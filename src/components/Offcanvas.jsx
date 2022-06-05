@@ -17,6 +17,11 @@ function Offcanvas() {
         <div className="offcanvas-body">
 
         <div className="list-group">
+            <Link to="/" className="list-group-item p-0 mb-2">
+                <li className='list-group-item list-group-item-action' data-bs-dismiss="offcanvas">
+                    <i class="fa-solid fa-home me-1"></i>Home
+                </li>
+            </Link>
             <Link to="/download/Estuaire" className="list-group-item p-0">
                 <li className='list-group-item list-group-item-action' data-bs-dismiss="offcanvas">
                     <i class="fa-solid fa-gamepad me-1"></i>Estuaire
