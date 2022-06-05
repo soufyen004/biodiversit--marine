@@ -3,6 +3,7 @@ import EnergieRenouvelable from "./components/EnergieRenouvelable";
 import EnergieNonRenouvelable from "./components/EnergieNonRenouvelable";
 import Main from "./pages/Main";
 import Home from "./pages/Home";
+import Footer from "./components/Footer";
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <Route path="/EnergieRenouvelable" element={<EnergieRenouvelable/>}/>
       <Route path="/EnergieNonRenouvelable" element={<EnergieNonRenouvelable/>}/>
       </Routes>
+    <Footer/>
     </Router>
       
     </>

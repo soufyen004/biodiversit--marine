@@ -26,11 +26,11 @@ function Offcanvas() {
         <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
             <div class="accordion-body">
                 <ul class="list-group">
-                    <Link className='nav-link p-0 mt-2' to="/EnergieRenouvelable">
-                        <li class="list-group-item"><i class="fa-solid fa-car-battery"></i> Energie Renouvelable</li>
+                    <Link  href="#" className='nav-link p-0 mt-2' to="/EnergieRenouvelable">
+                        <li  data-bs-dismiss="offcanvas" class="list-group-item"><i class="fa-solid fa-car-battery"></i> Energie Renouvelable</li>
                     </Link>
                     <Link className='nav-link p-0 mt-2' to="/EnergieNonRenouvelable">
-                        <li class="list-group-item"><i class="fa-solid fa-battery-three-quarters"></i> Energie Non Renouvelable</li>
+                        <li  data-bs-dismiss="offcanvas" class="list-group-item"><i class="fa-solid fa-battery-three-quarters"></i> Energie Non Renouvelable</li>
                     </Link>
                 </ul>
             </div>

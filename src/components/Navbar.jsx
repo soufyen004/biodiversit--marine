@@ -1,5 +1,4 @@
 import React from 'react'
-import { Navbar ,NavDropdown,Container,Nav} from 'react-bootstrap'
 import Logo from '../media/logo.png'
 import Intellcap from '../media/intellcap.png'
 import maFlag from '../media/ma_flag.png'
@@ -14,16 +13,16 @@ function RespNav() {
     <>
     <nav className="navbar navbar-expand-lg bg-light shadow">
       <div className="container-fluid">
-      <button class="btn btn-light me-auto fs-6" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-solid fa-bars"></i> </button>
+      <button class="btn btn-light me-2 fs-6" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-solid fa-bars fs-3"></i> </button>
           <Link to="/" className="navbar-brand img-fluid">
-            <img src={Intellcap} alt="Logo" width="200" class="d-inline-block p-0" />
+            <img src={Intellcap} alt="Logo" width="200" class="d-none d-md-inline-block p-0" />
           </Link>
           <a className="navbar-brand img-fluid p-0 d-lg-none" href="#">
             <img src={Logo} alt="" width="150" class="d-inline-block p-0" />
           </a>
           <div class="dropdown dropdown-menu-end d-flex mx-2 ms-auto">
             <button class="btn btn-transparent dropdown-toggle ms-auto" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-              <i className='fa-solid fa-language'></i>
+              <i className='fa-solid fa-language fs-4'></i>
             </button>
             <ul class="dropdown-menu dropdown-menu-end">
               <li><button class="dropdown-item text-center" type="button"><img width={'20px'} src={maFlag}/> AR</button></li>
