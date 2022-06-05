@@ -20,9 +20,9 @@ function DownloadPage(props) {
                     
                 </div>
                 
-            <div class="row">
+            <div class="row d-flex justify-content-start">
             
-                <div class="col-md-6 col-lg-4 col-xl-3 m-auto my-2">
+                <div class="col-md-6 col-lg-4 col-xl-3  my-2">
                     <div class="card shadow">
                         <img src={props.imgLink} class="card-img-top" alt="Image link Broken" />
                     <div class="card-body">
@@ -35,7 +35,7 @@ function DownloadPage(props) {
                     </div>
                 </div>
                 
-                <div class="col-md-6 col-lg-4 col-xl-3 m-auto my-2">
+                <div class="col-md-6 col-lg-4 col-xl-3  my-2">
                     <div class="card shadow">
                         <img src={props.imgLink} class="card-img-top" alt="Image link Broken" />
                     <div class="card-body">
