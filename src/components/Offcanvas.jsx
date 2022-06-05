@@ -54,7 +54,7 @@ function Offcanvas() {
         </div>
 
         <div className="mt-5 w-100 d-flex justify-content-center">
-            <img src={Intellcap} alt="Logo" width="200" class="d-none d-md-inline-block p-0" />
+            <img src={Intellcap} alt="Logo" width="200" class="d-md-inline-block p-0" />
         </div>
         
         </div>

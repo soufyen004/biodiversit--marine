@@ -7,7 +7,7 @@ function HomeCard(props) {
             <div className="card m-auto shadow" style={{width:"18rem"}}>
                 <img src={props.img} className="card-img-top" style={{height:'12rem'}} />
             <div className="card-body">
-                <h3 className="card-text">{props.title}</h3>
+                <h3 className="card-text"><i class="fa-solid fa-gamepad me-1"></i> {props.title}</h3>
             </div>
             <div className="card-footer d-flex justify-content-evenly p-1">
                 <Link to={props.downloadLink} className="btn btn-primary m-1 btn-sm">
