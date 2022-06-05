@@ -7,7 +7,7 @@ function Home() {
   return (
     <div>
         <Hero/>
-        <VideoPlayer/>
+        
     </div>
   )
 }

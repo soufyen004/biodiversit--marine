@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Intellcap from '../media/intellcap.png'
+
 
 function Offcanvas() {
 
@@ -7,88 +9,54 @@ function Offcanvas() {
   return (
     <div>
 
-        <div style={{width:'320px'}} class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-        <div class="offcanvas-header">
-            <span class="badge text-bg-primary fs-6">Eco-Platforme V1.5</span>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <div style={{width:'320px'}} className="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div className="offcanvas-header">
+            <span className="badge text-bg-primary fs-6"><i className="fa-solid fa-leaf me-1 fs-4"></i> Biodiversite V1.5</span>
+            <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body">
-        
-        
-    <div class="accordion" id="accordionPanelsStayOpenExample">
-    
-    <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-            <i class="fa-solid fa-bolt me-1"></i> Energies 
-        </button>
-        </h2>
-        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-            <div class="accordion-body">
-                <ul class="list-group">
-                    <Link  href="#" className='nav-link p-0 mt-2' to="/EnergieRenouvelable">
-                        <li  data-bs-dismiss="offcanvas" class="list-group-item"><i class="fa-solid fa-car-battery"></i> Energie Renouvelable</li>
-                    </Link>
-                    <Link className='nav-link p-0 mt-2' to="/EnergieNonRenouvelable">
-                        <li  data-bs-dismiss="offcanvas" class="list-group-item"><i class="fa-solid fa-battery-three-quarters"></i> Energie Non Renouvelable</li>
-                    </Link>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-            <i class="fa-solid fa-cloud me-1"></i> Changement Climatique 
-        </button>
-        </h2>
-        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-            <div class="accordion-body">
-                <ul class="list-group">
-                    <li class="list-group-item"><i class="fa-solid fa-bus"></i> Transport</li>
-                    <li class="list-group-item"><i class="fa-solid fa-building"></i> Batiments</li>
-                    <li class="list-group-item"><i class="fa-solid fa-recycle"></i> Déchets</li>
-                    <li class="list-group-item"><i class="fa-solid fa-industry"></i> Industrie</li>
-                    <li class="list-group-item"><i class="fa-solid fa-lightbulb"></i> Eclairage</li>
-                    <li class="list-group-item"><i class="fa-solid fa-tractor"></i> Agriculture</li>
-                    <li class="list-group-item"><i class="fa-solid fa-tree"></i> Déforisation</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-            <i class="fa-solid fa-fan me-1"></i> Quality Air
-        </button>
-        </h2>
-        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-        <div class="accordion-body">
-            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-        </div>
-        </div>
-    </div>
-    <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-            <i class="fa-solid fa-droplet me-1"></i> Eau
-        </button>
-        </h2>
-        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-        <div class="accordion-body">
-            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-        </div>
-        </div>
-    </div>
+        <div className="offcanvas-body">
 
-        <div className="mt-5 d-flex justify-content-center">
-            <button type="button" class="btn btn-danger mx-2 w-50"><i class="fa-solid fa-clipboard-question"></i> Guide</button>
-            <button type="button" class="btn btn-warning mx-2 w-50"><i class="fa-solid fa-circle-question"></i> Assistance</button>
+        <div className="list-group">
+            <Link to="/download/Estuaire" className="list-group-item p-0">
+                <li className='list-group-item list-group-item-action' data-bs-dismiss="offcanvas">
+                    Estuaire
+                </li>
+            </Link>
+            <Link to="/download/Ocean" className="list-group-item p-0">
+                <li className='list-group-item list-group-item-action' data-bs-dismiss="offcanvas">
+                   Ocean  
+                </li>
+            </Link>
+            <Link to="/download/Plage" className="list-group-item p-0">
+                <li className='list-group-item list-group-item-action' data-bs-dismiss="offcanvas">
+                   Plage 
+                </li>
+            </Link>
+            <Link to="/download/Port" className="list-group-item p-0">
+                <li className='list-group-item list-group-item-action' data-bs-dismiss="offcanvas">
+                   Port 
+                </li>
+            </Link>
+            <Link to="/download/zoneHumide" className="list-group-item p-0">
+                <li className='list-group-item list-group-item-action' data-bs-dismiss="offcanvas">
+                   Zone Humide 
+                </li>
+            </Link>
         </div>
         
-    </div>
+        <div className="btn-group mt-3 w-100" role="group" aria-label="...">
+            <button className="btn btn-light border">
+                Guide
+            </button>
+            <button className="btn btn-light border">
+                Assistance
+            </button>
+        </div>
 
-
+        <div className="mt-5 w-100 d-flex justify-content-center">
+            <img src={Intellcap} alt="Logo" width="200" class="d-none d-md-inline-block p-0" />
+        </div>
+        
         </div>
         </div>
     </div>
