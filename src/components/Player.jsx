@@ -8,8 +8,8 @@ function VideoPlayer() {
   return (
     <div className="flex w-100 justify-content-center">
     
-    <div className='rounded m-auto w-50 shadow bg-black p-2'>
-        <Player src={video} autoplay>
+    <div className='rounded m-auto w-75 shadow bg-black p-2'>
+        <Player src={video}>
         </Player>
     </div>
         
