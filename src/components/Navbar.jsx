@@ -33,7 +33,7 @@ function RespNav() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <div className='ms-auto'>
             <a className="navbar-brand img-fluid p-0 d-none d-lg-block" href="#">
-              <img src={'Logo'} alt="" width="200" class="p-0" />
+              <img src={Logo} alt="" width="200" class="p-0" />
             </a>
           </div>
         </div>
