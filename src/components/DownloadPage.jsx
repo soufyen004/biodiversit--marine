@@ -13,11 +13,11 @@ function DownloadPage(props) {
                 <p class="card-text">Selectioner la version pour lancer le telechargement.</p>
                 <div className="d-flex justify-content-center p-2 align-items-center mb-5">
                     <h5 className="text-muted">
-                        Ou cliquer ici pour retourner a la page
+                        Ou cliquer ici <Link to="/" className="btn btn-light border border-2 mx-2">
+                        <i class="fa-solid fa-house me-1"></i>
+                    </Link> pour l'accueil
                     </h5>
-                    <Link to="/" className="btn btn-light border border-2 mx-2">
-                        <i class="fa-solid fa-house me-1"></i>Accueil
-                    </Link>
+                    
                 </div>
                 
             <div class="row">

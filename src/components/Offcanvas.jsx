@@ -19,27 +19,27 @@ function Offcanvas() {
         <div className="list-group">
             <Link to="/download/Estuaire" className="list-group-item p-0">
                 <li className='list-group-item list-group-item-action' data-bs-dismiss="offcanvas">
-                    Estuaire
+                    <i class="fa-solid fa-gamepad me-1"></i>Estuaire
                 </li>
             </Link>
             <Link to="/download/Ocean" className="list-group-item p-0">
                 <li className='list-group-item list-group-item-action' data-bs-dismiss="offcanvas">
-                   Ocean  
+                    <i class="fa-solid fa-gamepad me-1"></i>Ocean  
                 </li>
             </Link>
             <Link to="/download/Plage" className="list-group-item p-0">
                 <li className='list-group-item list-group-item-action' data-bs-dismiss="offcanvas">
-                   Plage 
+                    <i class="fa-solid fa-gamepad me-1"></i>Plage 
                 </li>
             </Link>
             <Link to="/download/Port" className="list-group-item p-0">
                 <li className='list-group-item list-group-item-action' data-bs-dismiss="offcanvas">
-                   Port 
+                    <i class="fa-solid fa-gamepad me-1"></i>Port 
                 </li>
             </Link>
             <Link to="/download/zoneHumide" className="list-group-item p-0">
                 <li className='list-group-item list-group-item-action' data-bs-dismiss="offcanvas">
-                   Zone Humide 
+                    <i class="fa-solid fa-gamepad me-1"></i>Zone Humide 
                 </li>
             </Link>
         </div>
